@@ -1,4 +1,4 @@
-Import java.util.Scanner;
+import java.util.Scanner;
 public class Act2_Zabala{
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -60,7 +60,12 @@ public class Act2_Zabala{
 					case 2:
 						dayNmae = "2nd";
 						break;
-					c
+					case 3:
+						dayNmae = "3rd";
+						break;
+					default:
+						dayNmae = "th";
+						break;
 				}
 				system.out.println("It is the"+ dayNmae + "Day of "+ monthNmae + " " + years);
 			}else{
