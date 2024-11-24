@@ -1,6 +1,3 @@
-
-import java.io.IOException;
-
 public class Clearing {
 
     public static void clear() {
