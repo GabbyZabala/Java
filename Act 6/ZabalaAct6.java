@@ -1,4 +1,4 @@
-public class Homie {
+class Homie {
     public String Name;
     public int Age;
     public String PetName;
@@ -42,6 +42,9 @@ public class Homie {
         Age = A;
         PetName = Pet;
     }
+}
+
+public class ZabalaAct6 {
 
     public static void main(String[] args) {
         Homie n = new Homie("Raynell", 19, "llenyar", "Jerome0");
